@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.itcodai</groupId>
+    <artifactId>microservice</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>../microservice-order-consumer</module>
+        <module>../microservice-common</module>
+        <module>../microservice-order-provider01</module>
+        <module>../microservice-eureka02</module>
+        <module>../microservice-eureka03</module>
+        <module>../microservice-eureka</module>
+        <module>../microservice-order-provider02</module>
+        <module>../microservice-order-provider03</module>
+        <module>../microservice-order-consumer-feign</module>
+    </modules>
+    <!-- spring boot - spring cloud 版本 -->
+    <!-- 2.0.x -  版本 Finchley.SR2 -->
+    <!-- 1.5.x -  版本 Edgware.SR3 -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <spring-cloud.version>Finchley.SR2</spring-cloud.version>
+        <spring-boot.version>2.0.3.RELEASE</spring-boot.version>
+        <mysql.version>5.1.46</mysql.version>
+        <mybatis.version>1.3.2</mybatis.version>
+        <lombok.version>1.16.18</lombok.version>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <!-- 定义 spring cloud 版本 -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- 定义 spring boot 版本 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- 定义 mysql 版本 -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+            <!-- 定义 mybatis 版本 -->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+            <!-- 定义 lombok 版本 -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

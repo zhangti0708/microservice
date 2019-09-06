@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice.iml" filepath="$PROJECT_DIR$/microservice/microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-common/microservice-common.iml" filepath="$PROJECT_DIR$/microservice-common/microservice-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-eureka/microservice-eureka.iml" filepath="$PROJECT_DIR$/microservice-eureka/microservice-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-eureka02/microservice-eureka02.iml" filepath="$PROJECT_DIR$/microservice-eureka02/microservice-eureka02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-eureka03/microservice-eureka03.iml" filepath="$PROJECT_DIR$/microservice-eureka03/microservice-eureka03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-order-consumer/microservice-order-consumer.iml" filepath="$PROJECT_DIR$/microservice-order-consumer/microservice-order-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-order-consumer-feign/microservice-order-consumer-feign.iml" filepath="$PROJECT_DIR$/microservice-order-consumer-feign/microservice-order-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-order-provider01/microservice-order-provider01.iml" filepath="$PROJECT_DIR$/microservice-order-provider01/microservice-order-provider01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-order-provider02/microservice-order-provider02.iml" filepath="$PROJECT_DIR$/microservice-order-provider02/microservice-order-provider02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-order-provider03/microservice-order-provider03.iml" filepath="$PROJECT_DIR$/microservice-order-provider03/microservice-order-provider03.iml" />
+    </modules>
+  </component>
+</project>

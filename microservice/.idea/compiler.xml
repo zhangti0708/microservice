@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-common" />
+        <module name="microservice-eureka" />
+        <module name="microservice-eureka02" />
+        <module name="microservice-eureka03" />
+        <module name="microservice-order-consumer" />
+        <module name="microservice-order-consumer-feign" />
+        <module name="microservice-order-provider01" />
+        <module name="microservice-order-provider02" />
+        <module name="microservice-order-provider03" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice" target="1.8" />
+      <module name="microservice-common" target="1.8" />
+      <module name="microservice-eureka" target="1.8" />
+      <module name="microservice-eureka01" target="1.8" />
+      <module name="microservice-eureka02" target="1.8" />
+      <module name="microservice-eureka03" target="1.8" />
+      <module name="microservice-order-consumer" target="1.8" />
+      <module name="microservice-order-consumer-feign" target="1.8" />
+      <module name="microservice-order-eureka01" target="1.8" />
+      <module name="microservice-order-provider01" target="1.8" />
+      <module name="microservice-order-provider02" target="1.8" />
+      <module name="microservice-order-provider03" target="1.8" />
+      <module name="microserviceorderprovider01" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
